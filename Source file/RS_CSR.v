@@ -86,6 +86,7 @@
                 immediates[i] <= 0;
                 csr_addrs[i] <= 0;
                 ALUSrc2s[i] <= 0; 
+          result_out <= 0;
             end
         end else begin
                 operand1s[out_block] <= 0;
