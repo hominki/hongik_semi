@@ -98,6 +98,7 @@
                                 current_block <= 0;
                 next_block <= 1;
                 out_block <= SIZE -1;
+             result_out <= 0;
             end
         end else begin
                     operand1s[out_block] <= 0;
